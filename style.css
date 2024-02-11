@@ -1,0 +1,483 @@
+@font-face {
+    font-family: 'futurak';
+    src: url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('truetype'),
+        url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('ttf');
+}
+
+@import url('https://fonts.cdnfonts.com/css/apercu-pro');
+@import url('https://fonts.cdnfonts.com/css/butler');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+
+}
+
+/* .navbarimg{
+ 
+} */
+
+.navbarlinkpages {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.navimg1 {
+    width: 170px;
+    height: 80px;
+}
+
+.navlink1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: baseline;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 300;
+
+}
+
+.button-link {
+    font-size: medium;
+
+}
+
+.button {
+    border-radius: 40px;
+    background-color: #f01818;
+    color: #cf2626;
+    height: 50px;
+    width: 135px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    gap: 4px;
+
+
+
+}
+
+.button-arrow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 30px;
+    color: red;
+    background-color: white;
+}
+
+.black-button {
+
+    background-color: black;
+    border-color: white;
+    border: 1px solid white;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .blackbtn {}
+
+.redbtn {} */
+
+.bodyimg1 {
+    width: 100%;
+
+}
+
+.body2 {
+    background-color: black;
+    height: 380px;
+    padding: 90px 200px 160px 200px;
+}
+
+.body2part1 {
+    color: white;
+    text-align: center;
+    line-height: 45px;
+
+}
+
+.body2part1>h1 {
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.body2part1>h4 {
+    color: rgb(165, 164, 164);
+    font-weight: 100;
+}
+
+.body2part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.body2part1>h1>span {
+    font-family: 'futurak';
+    font-size: 50px;
+}
+
+.subbody2part2 {
+    background-color: white;
+    width: 300px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+.subbody2part2img {
+    width: 260px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body2part3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.body2-button {
+    border-radius: 40px;
+    background-color: black;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+
+
+    /* width: 250px;
+height: 150px; */
+}
+
+.subbody2part3 {
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.body3 {
+    background-color: rgb(15, 15, 15);
+    height: 100%;
+}
+
+.body3part1 {
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    padding: 60px 60px 30px 60px;
+    line-height: 60px;
+}
+
+.body3part1>h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.body3part1>h4 {
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 100;
+}
+
+.body3part1>h1 {
+    font-family: 'futurak';
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.body3part2 {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.body3country {
+    color: red;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.body3restaurant {
+    font-family: 'Apercu Pro', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+.body3restaurant>span {
+    font-family: 'futurak';
+    font-weight: 300px;
+}
+
+.body3adres {
+    font-family: 'Apercu Pro', sans-serif;
+    color: rgb(184, 184, 184);
+    margin-bottom: 8px;
+}
+
+.body3phone {
+    font-family: 'Apercu Pro', sans-serif;
+    color: rgb(184, 184, 184);
+    margin-bottom: 8px;
+}
+
+.body3button {
+    display: flex;
+    border-radius: 40px;
+    background-color: rgb(12, 12, 12);
+    border: 1px solid white;
+    padding: 20px 50px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    gap: 12px;
+}
+
+
+.body3buttonlink {
+   text-decoration: none;
+    color: white;
+ }
+
+.body3buttonarrow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+}
+
+.body3part3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.body3part4 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.body3col1 {
+    width: 50%;
+    padding-left: 95px;
+}
+
+.body3col2 {
+    width: 50%;
+    padding-right: 95px;
+}
+
+.subbody3part2>a {
+    margin-top: 55px;
+}
+
+.subbody3part3>a {
+    margin-top: 55px;
+}
+
+.subbody3part4>a {
+    margin-top: 55px;
+}
+
+ 
+
+.body4 {
+    height: 100%;
+    background-color: black;
+    width: 100%;
+    
+}
+
+.body4part1 {
+    color: white;
+    text-align: center;
+    padding: 40px 40px 30px 40px;
+    line-height: 60px;
+    margin:  0px 20px 0px 20px;
+
+}
+
+.body4part1>h1 {
+    font-family: 'futurak';
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.body4part1>h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: 500;
+}
+.body4part2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 20px 20px 20px;
+    padding: 2px 70px 20px 70px;
+}
+
+.body4part3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 20px 20px 20px;
+    padding: 2px 70px 20px 70px;
+    
+}
+
+.body4part4 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 20px 20px 20px;
+    padding: 2px 70px 20px 70px;
+}
+
+.body4part5 {
+     
+    margin: 5px 20px 20px 20px;
+    padding: 2px 70px 20px 70px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.subbody4part5{
+    display: flex;
+    justify-content: center;
+}
+
+.body4part5button{
+    position: relative;
+    left: 413px;
+}
+
+.subbody4part2 {
+color: white;
+}
+
+.subbody4part3 {
+    color: white;
+}
+
+.subbody4part4 {
+    color: white;
+}
+
+.body4country {
+    color: red;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.body4restaurant {
+    font-family: 'Apercu Pro', sans-serif;
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.body4adres {
+    font-family: 'Apercu Pro', sans-serif;
+    color: rgb(184, 184, 184);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.body4phone {
+    font-family: 'Apercu Pro', sans-serif;
+    color: rgb(184, 184, 184);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.body4button{
+    display: flex;
+    border-radius: 40px;
+    background-color: rgb(12, 12, 12);
+    border: 1px solid white;
+    padding: 20px 50px;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    gap: 12px;
+    text-align: center;
+    margin-left: 48px;
+    margin-right: 48px;
+
+}
+
+.body4button> div> a{
+    align-items: center;
+}
+
+.body4buttonlink{
+    text-decoration: none;
+    color: white;
+}
+
+.body4buttonarrow{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+}
+
+.subbody4allpartimg{
+    width: 350px;
+    height: 250px;
+}
